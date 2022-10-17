@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return render_template('templates/home.html')
+    return render_template('home.html')
 
 
 @app.route('/about')
@@ -22,7 +22,7 @@ def portfolio():
 def contact():
     return 'Contact Page Route'
 
-
+app.run()
 # @app.route('/api')
 # def api():
 #     with open('data.json', mode='r') as my_file:
