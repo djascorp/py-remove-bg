@@ -34,8 +34,8 @@ def contact():
     return 'Contact Page Route'
 
 
-app.run("0.0.0.0:80")
-
+if __name__ == '__main__':
+    app.run(debug=False, host='0.0.0.0', port='80')
 # @app.route('/api')
 # def api():
 #     with open('data.json', mode='r') as my_file:
