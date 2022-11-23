@@ -34,7 +34,7 @@ def contact():
     return 'Contact Page Route'
 
 
-# app.run(debug=True)
+app.run("0.0.0.0:80")
 
 # @app.route('/api')
 # def api():
